@@ -1,0 +1,331 @@
+﻿header, nav, main, footer, figcaption {
+    display: block;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial,Verdana,sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: lightgray;
+    background-clip: content-box;
+    height:auto;
+    width:auto ;
+}
+
+
+h3 {
+    font-family: Verdana;
+    color: white;
+    padding: 20px 20px
+}
+a {
+    text-decoration: none;
+}
+header #slider {
+text-align :center;
+ padding: 5px;
+    
+}
+#slider h2 {
+    text-shadow: 2px 2px 1px white;
+    float:left ;
+}
+body #wrapper {
+    background-color:slategrey;
+ 
+    text-align: center;
+    height: auto;
+    padding: 10px;
+   
+}
+
+.container{
+    width:80%;
+    margin:auto ;
+    overflow:hidden;
+    font-family:Arial, Verdana,sans-serif;    
+}
+.container p{
+    color:white ;
+    font-size:20px;
+}
+ header #sign{
+    text-align : left;
+}
+header {
+    background-color:#66c3dc; 
+    background-image: url("..//images/capture1.PNG");
+    background-position:left top;
+    background-repeat : no-repeat;
+    background-size:135px 135px;
+    padding: 20px 30px;
+    text-align: center;
+}
+
+nav ul {
+    margin:0;
+    padding:0;
+    list-style-type: none;
+   
+    
+}
+nav li{
+    float:left ;
+    display :inline;
+    padding: 0 20px 0 20px;
+    display:block;
+    text-decoration:none;
+}
+    header h2 {
+      margin :0;
+       padding:20px;
+    }
+
+header nav {
+    float: right;
+    padding: 25px;
+    width: auto;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    
+}
+header a:hover{
+    color:#ed4f0a;
+    font-weight:bold;
+}
+
+#showcase {
+    background: url("..//images/college.jfif") no-repeat;
+    background-size: cover;
+    height: 350px;
+}
+#adv{
+    padding:10px 10px;
+    background:#514d4d;
+
+
+}
+    #adv h1 {
+        float: left;
+        margin: 0;
+        color: red;
+        -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+        animation: mymove 5s infinite;
+    }
+
+    #adv form {
+        float: right;
+        padding: 10px 10px;
+    }
+   
+@-webkit-keyframes mymove {
+    from {
+        color: red;
+    }
+
+    to {
+        color: blue;
+    }
+}
+@-webkit-keyframes mymove {
+    from {
+        color: red;
+    }
+
+    to {
+        color: blue;
+    }
+}
+@-webkit-keyframes mymove {
+    from {
+        color: red;
+    }
+
+    to {
+        color: blue;
+    }
+}
+#adv input{
+padding: 4px;
+height:25px;
+width :220px
+}
+.button1{
+    height :35px;
+    background-color:coral;
+    border:none;
+    padding-left:20px;
+    padding-right:20px;
+}
+footer {
+    text-align: center;
+    background-color: #db7b43;
+    padding: 10px 10px;
+    font-size: 0.75em;
+    font-style: italic;
+}
+#discription img{
+    height:230px;
+    width:60%;
+   
+
+}
+#discription table {
+    border-collapse: collapse;
+    float: right;
+    width:40%;
+    height: auto;  
+    font-size: 14px;
+    font-family: Arial, Verdana,sans-serif;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 14px;
+   
+}
+
+
+
+@media only screen and (max-width:1024px) {
+    body {
+        margin: 0;
+    }
+
+    #wrapper {
+        width: auto;
+    }
+
+
+    main {
+        margin-left: 0;
+    }
+
+    nav {
+        float: none;
+        width: auto;
+    }
+
+        nav li {
+            display: inline-block;
+            padding: 0.5em;
+            letter-spacing: 0.4em;
+        }
+
+        nav ul {
+            text-align: center;
+        }
+
+        nav a {
+            border-style: none;
+        }
+
+    #slider h2 {
+        text-align: right;
+    }
+
+    h1, h2 {
+        font-size: 100%;
+    }
+
+    p {
+        font-size: 90%;
+    }
+
+    footer {
+        padding: 0;
+        float: left;
+        width: 100%;
+    }
+
+    .color {
+        padding: 0;
+        float: left;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    h1, h2 {
+        font-size: 100%;
+    }
+
+    #slider h2 {
+        text-align: right;
+    }
+
+    #discription img {
+        padding: 0;
+        float: left;
+        width: 100%;
+    }
+    #showcase h1,p {
+        padding: 0;
+        float: left;
+        width: 100%;
+    }
+    #discription table {
+        float: left;
+        width: auto;
+        height: auto;
+    }
+
+    p {
+        font-size: 90%;
+    }
+
+    #adv {
+        margin: 0px;
+    }
+
+
+    figure {
+        display: none;
+    }
+
+    nav, nav ul, nav li {
+        padding: 0;
+    }
+
+        nav li {
+            display: block;
+        }
+
+        nav a {
+            display: block;
+            padding: 0.5em;
+            border-bottom: 2px ridge #00005D;
+            text-align: center;
+        }
+    table tr {
+        padding: 0;
+        float: left;
+        width: 100%;
+    }
+    .picture {
+        float: left;
+        width: auto;
+        height: auto;
+    }
+  
+   
+    #ins td{
+         
+        padding:0;
+        float: left;
+        width: 100%;
+        
+    }
+    .mainitem th {
+        padding: 0;
+        float: left;
+        width: 100%;
+    }
+
+    }
